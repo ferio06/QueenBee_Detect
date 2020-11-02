@@ -55,8 +55,8 @@ def detect(save_img=False):
         dataset = LoadImages(source, img_size=imgsz)
 
     # Get names and colors
-    names=['abeilles','Reine']
-    colors=[[255,255,102],[0,0,255]]
+    names=['Abeilles','Reine']
+    colors=[[255,255,0],[255,0,]]
 
     # Run inference
     t0 = time.time()
