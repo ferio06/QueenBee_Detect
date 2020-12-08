@@ -53,7 +53,7 @@ def detect(save_img=False):
 
     # Get names and colors
     names = model.module.names if hasattr(model, 'module') else model.names
-    colors = [[16, 83, 135], [115, 97, 13]]
+    colors = [[216, 83, 13], [15, 97, 13]]
     # Run inference
     t0 = time.time()
     img = torch.zeros((1, 3, imgsz, imgsz), device=device)  # init img
